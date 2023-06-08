@@ -1,5 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: whitesmoke;
+}
+
 .App {
   text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* max-width: 100%; */
+  margin: 0 40px;
+  max-width: 100vw;
 }
 
 .App-logo {
@@ -35,4 +52,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navBar {
+  padding: 32px 0;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #92b2ba;
+  
+}
+
+.navBar p {
+  margin: 10px;
+}
+
+.big-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.small-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+ 
+}
+
+.flower-img {
+  max-width: 100vw;
+  /* height: auto; */
+  width: 30%;
+}
+
+.footer{
+  background-color: #eeeeee;
 }
