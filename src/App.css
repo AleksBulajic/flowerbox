@@ -17,6 +17,7 @@ body {
   /* max-width: 100%; */
   margin: 0 40px;
   max-width: 100vw;
+  width: 100%;
 }
 
 .App-logo {
@@ -58,17 +59,16 @@ body {
   padding: 32px 0;
   margin-bottom: 32px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   background-color: #92b2ba;
-  
 }
 
 .navBar p {
-  margin: 10px;
+ margin: 10px;
+ color: whitesmoke;
+ 
 }
 
 .big-img {
@@ -77,19 +77,66 @@ body {
 }
 
 .small-img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
- 
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+  width: 300px;
+  border: 1px, solid, black;
 }
 
 .flower-img {
   max-width: 100vw;
-  /* height: auto; */
-  width: 30%;
 }
 
-.footer{
+
+
+.flower {
+  flex-direction: row;
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.small   {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+}
+
+.H1 {
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 5px;
+  color: blue;
+}
+
+.P 
+  {
+    background-color: #f9dde0;
+  margin: 0 auto;
+  width: 3rem;
+  padding: 5px;
+  }
+
+  
+  .tags {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin: 10px;
+    flex-direction: row;
+    padding: 10px;
+  }
+  
+.bottomNav{
   background-color: #eeeeee;
 }
+
+  .logo {
+    justify-content: left;
+  }

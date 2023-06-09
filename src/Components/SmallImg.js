@@ -1,21 +1,27 @@
-import React from 'react'
+import React from "react";
 
-
-
-
-function SmallImg({data}) {
+function SmallImg({ data }) {
   return (
-    <div className='small-img'>
-     
-     <img src={data.image} className = "flower-img" />
-     <h1 className='name'>{data.name}</h1>
-     <p >{data.price}</p>
-     {data.tags.map(tag => (
-        <p>{tag}</p>
-     ))}
+    <div className="small">
+      <img src={data.image} alt="flower" />
+      <div style={{ display: "flex", flexDirection: "row", padding: 15 }}>
+        <h1 className="H1">
+          {data.name}
+        </h1>
+        <p className="P">
+          ${data.price}
+        </p>
+      </div>
 
+      <div  className="map"style={{ display: "flex", flexDirection: "row" }}>
+        {data.tags.map((tag) => (
+          <p className="tags" >
+            {tag}
+          </p>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
 
-export default SmallImg
+export default SmallImg;
