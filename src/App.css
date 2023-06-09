@@ -66,9 +66,11 @@ body {
 }
 
 .navBar p {
- margin: 10px;
- color: whitesmoke;
- 
+  margin: 10px;
+  color: whitesmoke;
+}
+.smallP {
+  font-size: large;
 }
 
 .big-img {
@@ -89,8 +91,6 @@ body {
   max-width: 100vw;
 }
 
-
-
 .flower {
   flex-direction: row;
   display: flex;
@@ -100,14 +100,13 @@ body {
   justify-content: center;
 }
 
-.small   {
+.small {
   width: 30%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   opacity: 0.8;
   box-shadow: #282c34;
-
 }
 
 .H1 {
@@ -118,31 +117,28 @@ body {
   color: #92b2ba;
 }
 
-.P 
-  {
-    background-color: #f9dde0;
+.P {
+  background-color: #f9dde0;
   margin: 0 auto;
   width: 3rem;
   padding: 5px;
-  }
+}
 
-  
-  .tags {
-    background-color: #eeeeee;
-    border-radius: 5px;
-    margin: 10px;
-    flex-direction: row;
-    padding: 10px;
-  }
-  
-.bottomNav{
+.tags {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.bottomNav {
   background-color: #eeeeee;
 }
 
-  .logo {
-    justify-content: left;
-  }
-
+.logo {
+  justify-content: left;
+}
 
 .footer {
   display: grid;
@@ -150,8 +146,7 @@ body {
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas:
-    "footer-left footer-center footer-right";
+  grid-template-areas: "footer-left footer-center footer-right";
   height: 100%;
   width: 100%;
 }
@@ -183,7 +178,6 @@ body {
 
 .text1 {
   text-align: left;
-  
 }
 
 p {
@@ -200,5 +194,5 @@ h3 {
   color: #ffb0b8;
   font-size: 13px;
   font-weight: 600;
-  margin: 10px
+  margin: 10px;
 }

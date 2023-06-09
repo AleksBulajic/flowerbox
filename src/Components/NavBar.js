@@ -3,11 +3,11 @@ import React from 'react'
 function NavBar() {
   return (
     <div className='navBar'>
-       <p>about</p> 
-       <p>collections</p> 
-       <p>delivery service</p> 
-       <p>location</p> 
-       <p>contact us</p> 
+       <p className='smallP'>about</p> 
+       <p className='smallP'>collections</p> 
+       <p className='smallP'>delivery service</p> 
+       <p className='smallP'>location</p> 
+       <p className='smallP'>contact us</p> 
     </div>
   )
 }
