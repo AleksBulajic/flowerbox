@@ -140,3 +140,63 @@ body {
   .logo {
     justify-content: left;
   }
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "footer-left footer-center footer-right";
+  height: 100%;
+  width: 100%;
+}
+
+.social-media-icon {
+  grid-area: footer-left;
+  height: 100px;
+  width: 100px;
+}
+
+.flowerbox h3 {
+  color: #92b2ba;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.flowerbox h3 {
+  color: #92b2ba;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.customer-service h3 {
+  color: #92b2ba;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.text1 {
+  text-align: left;
+  
+}
+
+p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.social-media {
+  margin: 40px;
+}
+h3 {
+  color: #ffb0b8;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px
+}
